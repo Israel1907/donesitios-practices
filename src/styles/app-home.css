@@ -1,0 +1,1608 @@
+/*! CSS Used from: https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css */
+.fa-3x {
+  font-size: 3em;
+}
+.fa-book:before {
+  content: "\f02d";
+}
+.fa-chevron-down:before {
+  content: "\f078";
+}
+.fa-shopping-bag:before {
+  content: "\f290";
+}
+/*! CSS Used from: https://use.fontawesome.com/releases/v5.5.0/css/all.css */
+.fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+.fa-3x {
+  font-size: 3em;
+}
+.fa-book:before {
+  content: "\f02d";
+}
+.fa-chevron-down:before {
+  content: "\f078";
+}
+.fa-shipping-fast:before {
+  content: "\f48b";
+}
+.fa-shopping-bag:before {
+  content: "\f290";
+}
+.fa-wallet:before {
+  content: "\f555";
+}
+.fas {
+  font-family: "Font Awesome 5 Free";
+}
+.fas {
+  font-weight: 900;
+}
+/*! CSS Used from: https://app.donesitios.com/assets/css/bttn.min.css */
+.bttn-md {
+  color: #1d89ff;
+}
+.bttn-warning {
+  color: #feab3a;
+}
+.bttn-md {
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+  border-color: transparent;
+  background: transparent;
+  font-weight: 400;
+  cursor: pointer;
+  position: relative;
+}
+.bttn-md {
+  font-family: inherit;
+}
+.bttn-md {
+  font-size: 20px;
+  padding: 5px 12px;
+}
+.bttn-gradient {
+  margin: 0;
+  padding: 0;
+  border-color: transparent;
+  background: transparent;
+  font-weight: 400;
+  cursor: pointer;
+  position: relative;
+  font-size: 20px;
+  font-family: inherit;
+  padding: 5px 12px;
+  overflow: hidden;
+  border-width: 0;
+  border-radius: 4px;
+  background: hsla(0, 0%, 100%, 0.4);
+  color: #fff;
+  -webkit-transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+  transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+.bttn-gradient:focus,
+.bttn-gradient:hover {
+  opacity: 0.75;
+}
+.bttn-gradient.bttn-md {
+  font-size: 20px;
+  font-family: inherit;
+  padding: 5px 12px;
+}
+.bttn-gradient.bttn-warning {
+  background: #feab3a;
+}
+.bttn-gradient {
+  border-radius: 100px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  text-shadow: 0 1px 0 hsla(0, 0%, 100%, 0.25);
+}
+.bttn-gradient {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #fff),
+    color-stop(1, #d6e3ff)
+  );
+  background-image: -webkit-linear-gradient(top, #fff, #d6e3ff);
+  background-image: linear-gradient(180deg, #fff 0, #d6e3ff);
+  background-image: -webkit-linear-gradient(93deg, #d6e3ff, #fff);
+  color: #1d89ff;
+}
+.bttn-gradient.bttn-warning {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #feab3a),
+    color-stop(1, #f35626)
+  );
+  background-image: -webkit-linear-gradient(top, #feab3a, #f35626);
+  background-image: linear-gradient(180deg, #feab3a 0, #f35626);
+  background-image: -webkit-linear-gradient(93deg, #f35626, #feab3a);
+  color: #fff;
+}
+/*! CSS Used from: https://app.donesitios.com/styles.48991ead4faf013b41ed.css */
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+section {
+  display: block;
+}
+h2,
+h3,
+h4 {
+  margin-top: 0;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+a {
+  text-decoration: none;
+  background-color: transparent;
+  color: #009da0;
+  cursor: pointer;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+button {
+  border-radius: 0;
+}
+button:focus {
+  outline: dotted 1px;
+  outline: -webkit-focus-ring-color auto 5px;
+}
+button,
+input {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+button,
+input {
+  overflow: visible;
+}
+button {
+  text-transform: none;
+}
+button {
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border-style: none;
+}
+h2,
+h3,
+h4 {
+  margin-bottom: 0.75rem;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.row {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col,
+.col-1,
+.col-3,
+.col-9,
+.col-lg-4,
+.col-md-1,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-6,
+.col-sm,
+.col-sm-1,
+.col-sm-10,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-6,
+.col-sm-8,
+.col-sm-auto,
+.col-xl-1 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.col {
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
+.col-1 {
+  -webkit-box-flex: 0;
+  flex: 0 0 8.3333333333%;
+  max-width: 8.3333333333%;
+}
+.col-3 {
+  -webkit-box-flex: 0;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+.col-9 {
+  -webkit-box-flex: 0;
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+@media (min-width: 576px) {
+  .col-sm {
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+  .col-sm-auto {
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+  }
+  .col-sm-1 {
+    -webkit-box-flex: 0;
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
+  }
+  .col-sm-2 {
+    -webkit-box-flex: 0;
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
+  }
+  .col-sm-3 {
+    -webkit-box-flex: 0;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .col-sm-6 {
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .col-sm-8 {
+    -webkit-box-flex: 0;
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
+  }
+  .col-sm-10 {
+    -webkit-box-flex: 0;
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
+  }
+  .col-sm-12 {
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .col-md-1 {
+    -webkit-box-flex: 0;
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
+  }
+  .col-md-2 {
+    -webkit-box-flex: 0;
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
+  }
+  .col-md-3 {
+    -webkit-box-flex: 0;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .col-md-4 {
+    -webkit-box-flex: 0;
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+  .col-md-6 {
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .col-md-12 {
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .col-lg-4 {
+    -webkit-box-flex: 0;
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+}
+@media (min-width: 1200px) {
+  .col-xl-1 {
+    -webkit-box-flex: 0;
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
+  }
+}
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,
+    background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .btn {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+.btn:hover {
+  color: #212529;
+  text-decoration: none;
+}
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 157, 160, 0.25);
+}
+.btn:disabled {
+  opacity: 0.65;
+}
+.btn-lg {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+}
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+}
+.card-body {
+  -webkit-box-flex: 1;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+.card-title {
+  margin-bottom: 0.75rem;
+}
+.card-img,
+.card-img-top {
+  flex-shrink: 0;
+  width: 100%;
+}
+.card-img,
+.card-img-top {
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+.card-img {
+  border-bottom-right-radius: calc(0.25rem - 1px);
+  border-bottom-left-radius: calc(0.25rem - 1px);
+}
+.align-items-center {
+  -webkit-box-align: center !important;
+  align-items: center !important;
+}
+@media (min-width: 576px) {
+  .justify-content-sm-center {
+    -webkit-box-pack: center !important;
+    justify-content: center !important;
+  }
+}
+@media (min-width: 768px) {
+  .justify-content-md-end {
+    -webkit-box-pack: end !important;
+    justify-content: flex-end !important;
+  }
+  .align-items-md-center {
+    -webkit-box-align: center !important;
+    align-items: center !important;
+  }
+}
+.mt-1 {
+  margin-top: 0.375rem !important;
+}
+.mr-1 {
+  margin-right: 0.375rem !important;
+}
+.mb-1 {
+  margin-bottom: 0.375rem !important;
+}
+.m-2 {
+  margin: 0.75rem !important;
+}
+.mr-3 {
+  margin-right: 1.5rem !important;
+}
+.p-2 {
+  padding: 0.75rem !important;
+}
+.text-left {
+  text-align: left !important;
+}
+.text-right {
+  text-align: right !important;
+}
+.text-center {
+  text-align: center !important;
+}
+.text-muted {
+  color: #6c757d !important;
+}
+@media print {
+  *,
+  ::after,
+  ::before {
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+  a:not(.btn) {
+    text-decoration: underline;
+  }
+  img {
+    page-break-inside: avoid;
+  }
+  h2,
+  h3,
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+.white {
+  color: #fff !important;
+}
+.grey {
+  color: #9e9e9e !important;
+}
+.card {
+  font-size: 1rem;
+  font-weight: 400;
+}
+h2,
+h3,
+h4 {
+  font-family: Montserrat Alternates, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.15em;
+}
+a:focus,
+a:hover {
+  color: #008487;
+  text-decoration: none;
+}
+p {
+  font-size: 1rem;
+  letter-spacing: 0.3px;
+}
+.btn[class*="btn-"] {
+  margin-bottom: 1rem;
+}
+.btn:active {
+  background-image: initial;
+}
+button:hover {
+  cursor: pointer;
+}
+.card {
+  border: 0;
+  margin: 18px 0;
+  box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0.01), 0 15px 32px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+}
+.card .card-body {
+  padding: 0;
+  height: auto;
+}
+.card .card-block {
+  padding: 0.5rem 1.5rem 1.5rem;
+}
+.card .card-img {
+  position: relative;
+}
+.card .card-img .card-title {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  padding: 24px;
+}
+.card .card-img.overlap {
+  margin-top: -40px;
+}
+.card h4.card-title {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+.card.card-inverse .card-text,
+.card.card-inverse .card-title,
+.card.card-inverse a,
+.card.card-inverse a:hover,
+.card.card-inverse div {
+  color: #fff;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+.font-small-3 {
+  font-size: 0.9rem !important;
+}
+.font-medium-3 {
+  font-size: 1.3rem !important;
+}
+.font-large-2 {
+  font-size: 3rem !important;
+  line-height: 2.95rem;
+}
+.font-large-3 {
+  font-size: 4rem !important;
+  line-height: 3.5rem;
+}
+.text-bold-400 {
+  font-weight: 400;
+}
+.text-bold-600 {
+  font-weight: 600;
+}
+.no-edge-bottom {
+  bottom: 0 !important;
+}
+.height-600 {
+  height: 600px !important;
+}
+* {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+:focus {
+  outline: 0;
+}
+a:active,
+a:focus,
+button::-moz-focus-inner,
+button:active,
+button:focus,
+button:hover {
+  outline: 0 !important;
+}
+.btn-round {
+  border-radius: 30px;
+}
+/*! CSS Used from: Embedded */
+/*! @import https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css */
+.fa-3x {
+  font-size: 3em;
+}
+.fa-book:before {
+  content: "\f02d";
+}
+.fa-chevron-down:before {
+  content: "\f078";
+}
+.fa-shopping-bag:before {
+  content: "\f290";
+}
+/*! end @import */
+/*! CSS Used from: Embedded */
+.half[_ngcontent-myb-c4] {
+  position: absolute;
+  display: inline-block;
+  overflow: hidden;
+  color: #ffa417;
+}
+.indications-shopping[_ngcontent-myb-c4] {
+  margin-top: 3% !important;
+  margin-bottom: 3% !important;
+}
+.indications-shopping[_ngcontent-myb-c4] p[_ngcontent-myb-c4] {
+  margin-bottom: 0 !important;
+}
+.store-card[_ngcontent-myb-c4]:hover {
+  -webkit-animation: 1s swing;
+  animation: 1s swing;
+}
+.icon-home-delivery[_ngcontent-myb-c4] {
+  color: #273746;
+}
+.more-vist[_ngcontent-myb-c4] {
+  color: #273746;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+.store-name[_ngcontent-myb-c4] {
+  color: #273746 !important;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+.store-title-name[_ngcontent-myb-c4] {
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+.city-selection[_ngcontent-myb-c4] h2[_ngcontent-myb-c4] {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 3em;
+  color: #273746;
+  margin-top: 1%;
+}
+.city-selection[_ngcontent-myb-c4] .btn-city[_ngcontent-myb-c4] {
+  font-size: 1.3em;
+  font-family: "Montserrat Alternates", sans-serif;
+  color: #ffbe0a;
+}
+.city-selection[_ngcontent-myb-c4] i[_ngcontent-myb-c4] {
+  font-size: 0.6em;
+  color: #ffbe0a;
+}
+.city-selection[_ngcontent-myb-c4] p[_ngcontent-myb-c4] {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 1em;
+}
+.featured-products[_ngcontent-myb-c4] {
+  padding-top: 0 !important;
+}
+.card-img-top[_ngcontent-myb-c4] {
+  height: 200px;
+}
+.sec-title-products[_ngcontent-myb-c4] {
+  margin-top: 2%;
+}
+.titles-sections[_ngcontent-myb-c4] {
+  font-size: 1.8em !important;
+  font-family: "Merriweather Sans", sans-serif;
+  color: #000;
+  margin-left: 0.5em;
+  margin-right: 0.2em;
+  margin-bottom: 0.5em;
+}
+.titles-sections[_ngcontent-myb-c4] h2[_ngcontent-myb-c4] {
+  margin-top: 0.3em !important;
+  text-transform: inherit !important;
+  text-align: center !important;
+  border-bottom: 1px solid #cacfd2;
+  margin-bottom: 0.5em;
+}
+.logos-row-1[_ngcontent-myb-c4] {
+  margin-top: 2%;
+  background-image: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#ffbe0a),
+    color-stop(#ffbe0a),
+    color-stop(#ffbe0a),
+    color-stop(#ffbe0a),
+    to(#ffbe0a)
+  );
+  background-image: linear-gradient(
+    to left,
+    #ffbe0a,
+    #ffbe0a,
+    #ffbe0a,
+    #ffbe0a,
+    #ffbe0a
+  );
+}
+.logos-row-1[_ngcontent-myb-c4] h2[_ngcontent-myb-c4] {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: #fff;
+  margin-right: 19%;
+  margin-bottom: 5%;
+}
+.logos-row-1[_ngcontent-myb-c4] p[_ngcontent-myb-c4] {
+  text-align: right !important;
+  margin-bottom: 5%;
+}
+.logos-row-1[_ngcontent-myb-c4] .img-phone-promo[_ngcontent-myb-c4] {
+  position: relative;
+  margin-top: -25px;
+}
+.logos-row-1[_ngcontent-myb-c4] .a-app-store[_ngcontent-myb-c4] {
+  margin-right: 5%;
+  margin-left: 10%;
+}
+.business[_ngcontent-myb-c4] {
+  margin-bottom: 5%;
+}
+.business[_ngcontent-myb-c4] .img-business[_ngcontent-myb-c4] {
+  width: 60%;
+  margin-right: 10%;
+}
+.business[_ngcontent-myb-c4] .card-block-business[_ngcontent-myb-c4] {
+  background: #273746 !important;
+  border-radius: 20px;
+}
+.business[_ngcontent-myb-c4] .btn-business[_ngcontent-myb-c4] {
+  margin-top: 5%;
+  background: #d4ac0d;
+  width: 34%;
+}
+.business[_ngcontent-myb-c4] .grow-with[_ngcontent-myb-c4] {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.business[_ngcontent-myb-c4]
+  .work[_ngcontent-myb-c4]
+  .done-logos[_ngcontent-myb-c4] {
+  border-radius: 20px;
+}
+.business[_ngcontent-myb-c4] .work[_ngcontent-myb-c4] h4[_ngcontent-myb-c4] {
+  font-family: "Montserrat Alternates", sans-serif !important;
+  text-transform: none !important;
+  margin-bottom: 2%;
+  margin-top: 5%;
+}
+.business[_ngcontent-myb-c4] .work[_ngcontent-myb-c4] p[_ngcontent-myb-c4] {
+  font-family: "Open Sans", sans-serif !important;
+  color: #607d8b;
+  text-transform: none !important;
+  text-align: justify !important;
+}
+.business[_ngcontent-myb-c4]
+  .work[_ngcontent-myb-c4]
+  .card-work[_ngcontent-myb-c4] {
+  background: #fff;
+}
+.business[_ngcontent-myb-c4]
+  .work[_ngcontent-myb-c4]
+  .btn-work[_ngcontent-myb-c4] {
+  background: #61a3c3;
+  width: 50%;
+}
+.searchBox[_ngcontent-myb-c4] {
+  top: 50%;
+  left: 10%;
+  background: #ffbe0a;
+  border-radius: 40px;
+}
+.searchBox[_ngcontent-myb-c4]:hover > .searchInput[_ngcontent-myb-c4] {
+  width: 240px;
+  padding: 0 6px;
+}
+.searchBox[_ngcontent-myb-c4]:hover > .searchButton[_ngcontent-myb-c4] {
+  background: #fff;
+  color: #2f3640;
+}
+.searchButton[_ngcontent-myb-c4] {
+  color: #ffbe0a;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #fff;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.searchInput[_ngcontent-myb-c4] {
+  border: none;
+  background: 0 0;
+  outline: 0;
+  float: left;
+  padding: 0;
+  color: #fff;
+  font-size: 16px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0;
+}
+.botonF1[_ngcontent-myb-c4] {
+  background: #ffbe0a !important;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  margin-left: 4%;
+  margin-bottom: 3%;
+  border: none;
+  outline: 0;
+  color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: flex;
+  width: 50px;
+  height: 50px;
+}
+span[_ngcontent-myb-c4] {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.botonF1[_ngcontent-myb-c4]:hover {
+  background: #273746;
+}
+@media screen and (max-width: 700px) {
+  .logo-out[_ngcontent-myb-c4] {
+    visibility: hidden;
+  }
+  .searchBox[_ngcontent-myb-c4]:hover > .searchInput[_ngcontent-myb-c4] {
+    width: 150px;
+    padding: 0 6px;
+  }
+  .botonF1[_ngcontent-myb-c4] {
+    margin-left: 6%;
+    margin-bottom: 6%;
+    width: 50px;
+    height: 50px;
+  }
+  .option-buy[_ngcontent-myb-c4] {
+    display: none;
+  }
+  .city-selection[_ngcontent-myb-c4] h2[_ngcontent-myb-c4] {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 2em;
+    color: #273746;
+    margin-top: 1%;
+  }
+  .city-selection[_ngcontent-myb-c4] .btn-city[_ngcontent-myb-c4] {
+    font-size: 1.2em;
+    font-family: "Montserrat Alternates", sans-serif;
+    color: #ffbe0a;
+  }
+  .city-selection[_ngcontent-myb-c4] i[_ngcontent-myb-c4] {
+    font-size: 1em;
+    color: #ffbe0a;
+  }
+  .city-selection[_ngcontent-myb-c4] p[_ngcontent-myb-c4] {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 1em;
+  }
+  .featured-products[_ngcontent-myb-c4] {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 !important;
+  }
+  .titles-sections[_ngcontent-myb-c4] {
+    font-family: "Merriweather Sans", sans-serif;
+    color: #000;
+    margin-left: 0.5em;
+    margin-right: 0.2em;
+  }
+  .titles-sections[_ngcontent-myb-c4] h2[_ngcontent-myb-c4] {
+    font-size: 27px;
+    margin-top: 0.3em !important;
+    text-transform: inherit !important;
+    text-align: left !important;
+    border-bottom: 1px solid #cacfd2;
+  }
+  .logos-row-1[_ngcontent-myb-c4] h2[_ngcontent-myb-c4] {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: #fff;
+    margin-right: 19%;
+    font-size: 150% !important;
+    text-align: center !important;
+  }
+  .logos-row-1[_ngcontent-myb-c4] p[_ngcontent-myb-c4] {
+    text-align: right !important;
+    color: #071f30 !important;
+    margin: 10%;
+  }
+  .logos-row-1[_ngcontent-myb-c4] .a-app-store[_ngcontent-myb-c4] {
+    margin-right: 5%;
+    margin-left: 25%;
+  }
+  .logos-row-1[_ngcontent-myb-c4] .a-app-play[_ngcontent-myb-c4] {
+    margin: 5% 5% 2% 25%;
+  }
+  .logos-row-1[_ngcontent-myb-c4] .img-phone-promo[_ngcontent-myb-c4] {
+    width: 70%;
+    position: relative;
+    margin-top: -25px;
+    margin-left: 15%;
+  }
+  .business[_ngcontent-myb-c4] {
+    margin-bottom: 5%;
+  }
+  .business[_ngcontent-myb-c4] .img-business[_ngcontent-myb-c4] {
+    width: 60%;
+    height: 60%;
+    margin-right: 10%;
+  }
+  .business[_ngcontent-myb-c4] .card-block-business[_ngcontent-myb-c4] {
+    margin: 2%;
+    background: #273746 !important;
+    border-radius: 20px;
+  }
+  .business[_ngcontent-myb-c4]
+    .card-block-business[_ngcontent-myb-c4]
+    h2[_ngcontent-myb-c4] {
+    margin: 5%;
+    font-size: 22px !important;
+  }
+  .business[_ngcontent-myb-c4]
+    .card-block-business[_ngcontent-myb-c4]
+    p[_ngcontent-myb-c4] {
+    margin-right: 5%;
+    font-size: 22px !important;
+  }
+  .business[_ngcontent-myb-c4]
+    .card-block-business[_ngcontent-myb-c4]
+    a[_ngcontent-myb-c4] {
+    width: 60%;
+    margin-left: 20%;
+    font-size: 22px !important;
+  }
+  .business[_ngcontent-myb-c4]
+    .card-block-business[_ngcontent-myb-c4]
+    img[_ngcontent-myb-c4] {
+    margin-left: 20%;
+  }
+  .business[_ngcontent-myb-c4] .btn-business[_ngcontent-myb-c4] {
+    margin-top: 5%;
+    background: #ffbe0a;
+    width: 34%;
+  }
+  .business[_ngcontent-myb-c4] .grow-with[_ngcontent-myb-c4] {
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
+  .business[_ngcontent-myb-c4]
+    .grow-with[_ngcontent-myb-c4]
+    h3[_ngcontent-myb-c4] {
+    margin-left: 13%;
+    font-size: 27px !important;
+  }
+  .business[_ngcontent-myb-c4]
+    .work[_ngcontent-myb-c4]
+    .done-logos[_ngcontent-myb-c4] {
+    border: 1px solid #000 !important;
+    border-radius: 20px;
+  }
+  .img-phone-promo[_ngcontent-myb-c4] {
+    display: none;
+  }
+  .business[_ngcontent-myb-c4]
+    .work[_ngcontent-myb-c4]
+    .card-work[_ngcontent-myb-c4] {
+    margin-bottom: 10%;
+    background: #fff;
+  }
+  .business[_ngcontent-myb-c4]
+    .work[_ngcontent-myb-c4]
+    .btn-work[_ngcontent-myb-c4] {
+    background: #61a3c3;
+    width: 70%;
+  }
+}
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://use.fontawesome.com/releases/v5.5.0/webfonts/fa-regular-400.eot);
+  src: url(https://use.fontawesome.com/releases/v5.5.0/webfonts/fa-regular-400.eot#iefix)
+      format("embedded-opentype"),
+    url(https://use.fontawesome.com/releases/v5.5.0/webfonts/fa-regular-400.woff2)
+      format("woff2"),
+    url(https://use.fontawesome.com/releases/v5.5.0/webfonts/fa-regular-400.woff)
+      format("woff"),
+    url(https://use.fontawesome.com/releases/v5.5.0/webfonts/fa-regular-400.ttf)
+      format("truetype"),
+    url(https://use.fontawesome.com/releases/v5.5.0/webfonts/fa-regular-400.svg#fontawesome)
+      format("svg");
+}
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://use.fontawesome.com/releases/v5.5.0/webfonts/fa-solid-900.eot);
+  src: url(https://use.fontawesome.com/releases/v5.5.0/webfonts/fa-solid-900.eot#iefix)
+      format("embedded-opentype"),
+    url(https://use.fontawesome.com/releases/v5.5.0/webfonts/fa-solid-900.woff2)
+      format("woff2"),
+    url(https://use.fontawesome.com/releases/v5.5.0/webfonts/fa-solid-900.woff)
+      format("woff"),
+    url(https://use.fontawesome.com/releases/v5.5.0/webfonts/fa-solid-900.ttf)
+      format("truetype"),
+    url(https://use.fontawesome.com/releases/v5.5.0/webfonts/fa-solid-900.svg#fontawesome)
+      format("svg");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_cJD3gTD_u50.woff2)
+    format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_cJD3g3D_u50.woff2)
+    format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_cJD3gbD_u50.woff2)
+    format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_cJD3gfD_u50.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_cJD3gnD_g.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2)
+    format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2)
+    format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2)
+    format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_ZpC3gTD_u50.woff2)
+    format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_ZpC3g3D_u50.woff2)
+    format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_ZpC3gbD_u50.woff2)
+    format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_ZpC3gfD_u50.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_ZpC3gnD_g.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_bZF3gTD_u50.woff2)
+    format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_bZF3g3D_u50.woff2)
+    format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_bZF3gbD_u50.woff2)
+    format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_bZF3gfD_u50.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_bZF3gnD_g.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gTD_u50.woff2)
+    format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3g3D_u50.woff2)
+    format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gbD_u50.woff2)
+    format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gfD_u50.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_c5H3gTD_u50.woff2)
+    format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_c5H3g3D_u50.woff2)
+    format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_c5H3gbD_u50.woff2)
+    format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_c5H3gfD_u50.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_c5H3gnD_g.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_epG3gTD_u50.woff2)
+    format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_epG3g3D_u50.woff2)
+    format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_epG3gbD_u50.woff2)
+    format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_epG3gfD_u50.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_epG3gnD_g.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserratalternates/v12/mFTiWacfw6zH4dthXcyms1lPpC8I_b0juU0xUILFCrxG6mA.woff2)
+    format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+@font-face {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserratalternates/v12/mFTiWacfw6zH4dthXcyms1lPpC8I_b0juU0xUILFA7xG6mA.woff2)
+    format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserratalternates/v12/mFTiWacfw6zH4dthXcyms1lPpC8I_b0juU0xUILFCLxG6mA.woff2)
+    format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserratalternates/v12/mFTiWacfw6zH4dthXcyms1lPpC8I_b0juU0xUILFCbxG6mA.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserratalternates/v12/mFTiWacfw6zH4dthXcyms1lPpC8I_b0juU0xUILFB7xG.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/merriweathersans/v14/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZou4VhOsH3xE.woff2)
+    format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+@font-face {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/merriweathersans/v14/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZou4VhusH3xE.woff2)
+    format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/merriweathersans/v14/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZou4Vh-sH3xE.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/merriweathersans/v14/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZou4ViesH.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWJ0bbck.woff2)
+    format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFUZ0bbck.woff2)
+    format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWZ0bbck.woff2)
+    format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFVp0bbck.woff2)
+    format("woff2");
+  unicode-range: U+0370-03FF;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWp0bbck.woff2)
+    format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFW50bbck.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFVZ0b.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWJ0bbck.woff2)
+    format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFUZ0bbck.woff2)
+    format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWZ0bbck.woff2)
+    format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFVp0bbck.woff2)
+    format("woff2");
+  unicode-range: U+0370-03FF;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWp0bbck.woff2)
+    format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFW50bbck.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFVZ0b.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
